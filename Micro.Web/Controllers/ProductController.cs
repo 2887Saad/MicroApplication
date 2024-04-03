@@ -12,5 +12,9 @@ namespace Micro.Web.Controllers
         {
             return View();
         }
+         public IActionResult Update()
+        {
+            return View();
+        }
     }
 }
