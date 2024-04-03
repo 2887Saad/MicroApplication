@@ -12,9 +12,19 @@ namespace Micro.Web.Controllers
         {
             return View();
         }
-         public IActionResult Update()
+        public IActionResult Update()
         {
             return View();
         }
+        public IActionResult Delete()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Delete(int a)
+        {
+            return View();
+        }
+
     }
 }
